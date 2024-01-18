@@ -19,7 +19,7 @@ class DiceSimulator
         // Get the simulation results and pass in the number of rolls 
         int[] results = roller.SimulateRolls(numberOfRolls);
 
-        // Print the histogram
+        // Print out the results
         PrintHistogram(results, numberOfRolls);
 
         Console.WriteLine("Thank you for using the dice throwing simulator. Goodbye!");
@@ -40,7 +40,9 @@ class DiceSimulator
     }
 }
 
+//dice roller function that simulates the dice being thrown
 class DiceRoller
+ 
 {
     private Random random;
 
