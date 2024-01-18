@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Joshua Thatcher
+//Dice Rolling Simulation
+
+using System;
 
 class DiceSimulator
 {
