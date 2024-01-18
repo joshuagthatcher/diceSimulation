@@ -16,7 +16,7 @@ class DiceSimulator
         // Create an instance of the DiceRoller class
         DiceRoller roller = new DiceRoller();
 
-        // Get the simulation results
+        // Get the simulation results and pass in the number of rolls 
         int[] results = roller.SimulateRolls(numberOfRolls);
 
         // Print the histogram
@@ -52,6 +52,7 @@ class DiceRoller
     public int[] SimulateRolls(int numberOfRolls)
     {
         int[] results = new int[13]; 
+    //create a for loop to iterate through the dice rolls
 
         for (int i = 0; i < numberOfRolls; i++)
         {
