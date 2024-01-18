@@ -13,7 +13,7 @@ class DiceSimulator
         Console.Write("How many dice rolls would you like to simulate? ");
         int numberOfRolls = int.Parse(Console.ReadLine());
 
-        // Create an instance of the DiceRoller class
+        // Create an instance of the dice roll class
         DiceRoller roller = new DiceRoller();
 
         // Get the simulation results and pass in the number of rolls 
