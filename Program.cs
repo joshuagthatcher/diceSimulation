@@ -51,7 +51,7 @@ class DiceRoller
 
     public int[] SimulateRolls(int numberOfRolls)
     {
-        int[] results = new int[13]; // Index 0 is not used, so results[2] to results[12] represent sums 2 to 12
+        int[] results = new int[13]; 
 
         for (int i = 0; i < numberOfRolls; i++)
         {
